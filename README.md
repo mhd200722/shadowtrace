@@ -44,7 +44,7 @@ ShadowTrace is a powerful real-time file monitoring system that combines the spe
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/yourusername/shadowtrace.git
+git clone https://github.com/mhd200722/shadowtrace.git
 cd shadowtrace
 ```
 
