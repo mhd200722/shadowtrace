@@ -186,7 +186,7 @@ shadowtrace/
 | `file_monitor.py` | Python monitoring engine with anomaly detection |
 | `file_scanner.c/h` | High-performance C scanning library |
 | `email_reporter.py` | Email report generation and SMTP delivery |
-| `libcheckpass.so` | Compiled shared library |
+| `file_scanner.dll` | Compiled shared library |
 
 ---
 
@@ -312,10 +312,10 @@ server = smtplib.SMTP("smtp.mail.yahoo.com", 587)
 
 ### Common Issues
 
-**Problem**: `FileNotFoundError: libcheckpass.so`
+**Problem**: `FileNotFoundError: file_scanner.dll`
 ```bash
 # Solution: Compile the C library
-gcc -shared -o libcheckpass.so file_scanner.c -lkernel32
+gcc -shared -o file_scanner.dll file_scanner.c -lkernel32
 ```
 
 **Problem**: Email not sending
