@@ -57,12 +57,7 @@ pip install -r requirements.txt
 
 **For Windows (using MinGW or MSVC):**
 ```bash
-gcc -shared -o libcheckpass.so file_scanner.c -lkernel32
-```
-
-**For Linux (cross-compile for Windows):**
-```bash
-x86_64-w64-mingw32-gcc -shared -o libcheckpass.so file_scanner.c
+gcc -shared -o file_scannder.dll file_scanner.c -lkernel32
 ```
 
 ### 4. Verify Installation
